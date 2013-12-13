@@ -38,5 +38,5 @@ If you can find a place where this script/pattern *breaks*—outside of modern g
 
 For any of the above, feel free to <a href="https://github.com/filamentgroup/marquee/issues">file an issue in the tracker</a>.
 
-XOXO,
+XOXO,<br>
 Mat M̶a̶r̶q̶u̶i̶s̶ Marquee
