@@ -18,8 +18,8 @@ This plugin can be invoked as an absolute last-resort fallback for Heart.js, eit
 **Q:** _Seriously?_<br>
 **A:** Okay, look: this is an _absolute last resort_ fallback pattern for the <a href="https://github.com/filamentgroup/Heart.js">Heart.js ticker pattern</a>, which itself falls back to simply displaying all your content at once. This script gives you basic controls for a `marquee` tag, in the event that you need a Heart.js ticker to _unfailingly_ fall back to something ticker-like.
 
-*Q:* You know `marquee` is deprecated, right?<br>
-*A:* On the contrary: it was <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee?redirectlocale=en-US&redirectslug=HTML%2FElement%2Fmarquee">never a standard in the first place</a>.
+**Q:** You know `marquee` is deprecated, right?<br>
+**A:** On the contrary: it was <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee?redirectlocale=en-US&redirectslug=HTML%2FElement%2Fmarquee">never a standard in the first place</a>.
 
 **Q:** Do you have any data to back up the performance claims?<br>
 **A:** Unfortunately, no. The best profiling tool we had in a place where this shows an appreciable _visual_ difference over Heart.js is the IE8 dev tools’ profiler, which shows no performance information on `marquee`—we can’t dig up any data on whatever arcane majjyks power the `marquee` element, deep within the rendering engine. If you know a way to profile this anywhere, <a href="https://github.com/filamentgroup/marquee/issues">I’d really like to hear from you</a>.
