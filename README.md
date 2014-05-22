@@ -1,3 +1,7 @@
+# marquee
+
+[![Filament Group](http://filamentgroup.com/images/fg-logo-positive-sm-crop.png) ](http://www.filamentgroup.com/)
+
 Let me stop you right here: if you’re looking for a fast, featured, modern ticker script, check out our <a href="https://github.com/filamentgroup/Heart.js">Heart.js repo</a>. Heart.js works on a system of tiered enhancements: CSS transitions where supported, `requestAnimationFrame` where supported, and so on back to a `setInterval` animating `margin-left`, which we found to be <a href="http://jsperf.com/scrollpos-test">to be more performant in IE 8/9</a> than `scrollLeft`, surprisingly.
 
 But here at Filament Group, we’re not afraid to get a little weird. Heart.js came about in an effort to wring out every drop of cross-browser performance we could. In all our testing while working on Heart.js, we found that one approach in particular seemed unusually resource-lean across a huge range of outdated mobile devices, browsers, and Internet Explorers 8 and 9 alike—even if it was a little wanting for features.
